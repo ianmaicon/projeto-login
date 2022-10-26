@@ -6,3 +6,19 @@ Verde #49a09d
 lilás #5f2c82
 */
 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, purple, red);
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 20vh;
+}
