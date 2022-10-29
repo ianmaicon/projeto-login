@@ -17,19 +17,27 @@ Grandes telas: Acima de 1200px
 
     section#login {
         width: 80vw;
-        height: 100vh;
+        height: 350px;
     }
 
     section#login > div#imagem {
         float: left;
         width: 30%;
         height: 100vh;
+        background-position: bottom right;
     }
 
     section#login > div#formulario {
         float: right;
         width: 70%;
     }
+
+
+    section#login > div#formulario > p {
+        margin: 20px 0px;
+    }
+
+    
 
 }
 
@@ -41,16 +49,26 @@ Grandes telas: Acima de 1200px
 
     section#login {
         width: 950px;
+        height: 385px;
     }
 
     section#login > div#imagem {
         float: right;
         width: 50%;
         height: 100vh;
+        background-position: center bottom;
     }
 
     section#login > div#formulario {
         float: left;
         width: 50%;
+    }
+
+    section#login > div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    section#login > div#formulario > p {
+        margin: 20px 0px;
     }
 }
